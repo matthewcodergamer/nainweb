@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nain High School Recycling & Item Sharing</title>
+    <link rel="icon" href="android-chrome-512x512.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Logo.png" alt="Nain High School Logo" class="Logo" width="400">
+        </div>
+        <h1>Nain High School Recycling & Item Sharing</h1>
+        <p class="school-motto">"If we rest, we rust, so soar we must."</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#items">Items</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2 class="welcome">Welcome to Nain High School's Recycling Platform</h2>
+        <p class="saying">Here, you can list unwanted items for others to collect and contribute to a greener environment.</p>
+    </section>
+
+    <section id="slideshow">
+        <div class="slideshow-container">
+            <div class="arrow left-arrow">&#10094;</div>
+            <div class="slide-container">
+                <div class="slide prev-slide">
+                    <img src="Nain-High-School-2.png" alt="Previous School Image">
+                </div>
+                <div class="slide current-slide">
+                    <img src="Nain-High-School-3.png" alt="Current School Image">
+                </div>
+                <div class="slide next-slide">
+                    <img src="Nain-pkme5y8kmczr4th44snbjdfktwjpagdxz7972zsxi8.png" alt="Next School Image">
+                </div>
+            </div>
+            <div class="arrow right-arrow">&#10095;</div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Nain High School is committed to sustainability and creating a better community. Our recycling platform helps reduce waste and encourages sharing items among the students and staff.</p>
+        <div class="team">
+            <div class="team-member">
+                <img src="IMG_3072-1024x819.jpg" alt="Principal Dr. Jane Doe" class="round-img">
+                <h3>Mr. Stevon Sheriff</h3>
+                <p>Principal</p>
+            </div>
+            <div class="team-member">
+                <img src="person-icon-476x512-hr6biidg.png" alt="Teacher Mr. John Smith" class="round-img">
+                <h3>Miss ----</h3>
+                <p>Recycling Coordinator</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="items">
+        <h2>Items Available for Recycling</h2>
+        <div class="items-list">
+            <div class="item">
+                <h3>Old Textbooks</h3>
+                <p>Available near the library.</p>
+                <button class="message-btn">Message Lister</button>
+            </div>
+            <div class="item">
+                <h3>Unused Furniture</h3>
+                <p>Available near the student lounge.</p>
+                <button class="message-btn">Message Lister</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach out to us.</p>
+        <form action="/send_message" method="post" class="contact-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Nain High School. All rights reserved.</p>
+    </footer>
+</body>
+</html>
